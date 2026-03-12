@@ -1,10 +1,14 @@
 package maven.example;
 
+import maven.example.entity.Livro;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int quantiaLivros = 0;
+
 
         while (true) {
             System.out.println("Menu: ");
@@ -18,7 +22,7 @@ public class Main {
 
             switch (escolha) {
                 case 1:
-                    System.out.println("Cadastro");
+                    System.out.println("Título:");
                     break;
 
                 case 2:
