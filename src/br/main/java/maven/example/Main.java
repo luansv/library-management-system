@@ -22,7 +22,6 @@ public class Main {
 
             switch (escolha) {
                 case 1:
-                    cadastrarLivros();
                     break;
 
                 case 2:
