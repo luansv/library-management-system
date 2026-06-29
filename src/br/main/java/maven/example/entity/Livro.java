@@ -1,9 +1,13 @@
 package maven.example.entity;
 
 public class Livro {
-    public String titulo;
-    public String autor;
     public int ano;
+    public int ano;
+    public int ano;
+    public int ano;
+    private String titulo;
+    private String autor;
+    private int ano;
 
     public Livro(String titulo, String autor, int ano) {
         this.titulo = titulo;
